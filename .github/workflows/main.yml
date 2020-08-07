@@ -31,4 +31,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ well-made-father.surge.sh --token ${{secret.MY_SECRET}}
+      run: surge ./ well-made-father.surge.sh --token ${{secrets.MY_SECRET}}
